@@ -1,0 +1,16 @@
+Health Board,Incidents Conveyed,Median Turnaround Time (hh:mm:ss),90th Percentile Turnaround Time (hh:mm:ss)
+Ayrshire & Arran,457,00:46:29,01:53:10
+Borders,144,00:30:58,00:52:19
+Dumfries & Galloway,249,00:30:32,00:54:09
+Fife,398,00:52:44,01:38:53
+Forth Valley,436,00:51:34,01:39:58
+Grampian,587,00:51:03,02:04:51
+Greater Glasgow & Clyde,1715,00:52:03,01:33:55
+Highland,341,00:41:26,02:02:27
+Lanarkshire,758,01:08:52,02:30:36
+Lothian,1030,00:49:19,01:17:33
+Orkney,21,00:15:52,00:24:24
+Shetland,19,00:26:29,00:41:14
+Tayside,497,00:33:19,01:04:41
+Western Isles,31,00:22:36,00:35:35
+SCOTLAND,6683,00:48:43,01:39:25
