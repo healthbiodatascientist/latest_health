@@ -35,7 +35,7 @@ app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 app.layout = dbc.Container([
     html.H1("Regional Scottish Health Board Acute Case Latest Mixed Date Data", className='mb-2', style={'padding': '10px 10px', 'textAlign':'center'}),
     dbc.Row([dbc.Col(html.Summary("The map below displays a mixed set of combined open source data from Public Health Scotland (PHS) and the Scottish Ambulance Service (SAS) for each of the Scottish Health Board Regions. Hover over your Health Board for an insight into the factors affecting the efficiency of acute care:", className='mb-2', style={'padding': '10px 10px', 'list-style': 'none'}))]),
-    dbc.Row([dbc.Col(html.Iframe(id='my_output', height=600, width=1000, srcDoc=open('latestmap.html', 'r').read()))]),
+    dbc.Row([dbc.Col(html.Iframe(id='my_output', height=600, width=1000, srcDoc=open('latestmap.html', 'r').read()))], style={'text-align':'center'}),
     html.Figcaption("Figure 1: Map of the latest mixed date open health data for the Scottish Health Board Regions", className='mb-2', style={'padding': '10px 10px', 'textAlign':'center'}),
     html.H4("SAS, NHS Scotland and Scottish Government Targets for 2023/24", className='mb-2', style={'margin-top': '1em', 'padding': '10px 10px', 'textAlign': 'center'}),
     html.Summary("Percentage Emergencies Attended/Conveyed (last updated Weekly 27/08/2025): No specific SAS targets set in 2023/24. However, high volumes of ambulance conveyances to A&E departments can significantly worsen waiting times. This is because increased ambulance arrivals can lead to overcrowding, putting strain on resources and staff, and ultimately resulting in longer waits for all patients, including those who arrive by other means", className='mb-2'),
